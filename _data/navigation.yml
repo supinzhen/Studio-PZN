@@ -1,6 +1,6 @@
-- name: Collection
-  link: /blog/
 - name: About
   link: /about/
+- name: Collection
+  link: /blog/
 - name: Contact
   link: /contact/
