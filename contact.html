@@ -41,12 +41,12 @@ image2: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 	<section>
 		<div class="container flex">
 			<div class="text">
-				<h3>Address</h3>
+				<h3 class="editable">Address</h3>
 				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-				<h3>Email</h3>
+				<h3 class="editable">Email</h3>
 				<p class="editable">
-					pznsstudio@gmail.com<a href="mailto:pznsstudio@gmail.com">...</a>
+					<a href="mailto:pznsstudio@gmail.com">pznsstudio@gmail.com</a>
 				</p>
 			</div>
 			<div class="image">
