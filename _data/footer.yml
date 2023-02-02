@@ -1,8 +1,8 @@
 left_links:
-  - name: Blog
-    link: /blog/
   - name: About
     link: /about/
+  - name: Collection
+    link: /collection/
   - name: Contact
     link: /contact/
 right_links:
