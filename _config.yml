@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Studio PZN's collection.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Studio PZN
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://github.com/supinzhen/Studio-PZN
 
 # -----
 # Build
