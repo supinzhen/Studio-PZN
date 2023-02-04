@@ -1,4 +1,4 @@
-.button a, input[type=submit] {
+.button a, button[type=submit] {
 	color: $brand-color;
 	text-decoration: none;
 	border: 2px solid $brand-color;
@@ -8,7 +8,7 @@
 	background: #fff;
 }
 
-.button a:hover, input[type=submit]:hover {
+.button a:hover, button[type=submit]:hover {
 	background: $brand-color;
 	color: #fff;
 	cursor: pointer;
@@ -52,7 +52,7 @@ input, textarea, button {
 	font-size: 1em;
 }
 
-input, textarea, button {
+input, textarea {
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
