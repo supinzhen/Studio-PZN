@@ -20,22 +20,44 @@ image2: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 
 <section class="pad" id="contact-us">
 	<div class="text-container contact-box">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="pznsstudio@gmail.com" />
-			<input type="text" name="_gotcha" style="display: none;" />
-
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Enter your name..." />
-
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="Enter your email..." required />
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-
-			<input type="submit" value="Send Message"/>
-		</form>
-	</div>
+		<form method="post" action="https://forms.un-static.com/forms/c99caeb5829f783465732e1209d4796b17c5f3e1" class="contact-form">
+			<div class="form-group row">
+				<label for="name" class="col-4 col-form-label">Name</label>
+				<div class="col-8">
+				  <div class="input-group">
+					<div class="input-group-addon">
+					  <i class="fa fa-user"></i>
+					</div>
+					<input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+				  </div>
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<label for="email" class="col-4 col-form-label">E-mail address</label>
+				<div class="col-8">
+				  <div class="input-group">
+					<div class="input-group-addon">
+					  <i class="fa fa-envelope"></i>
+					</div>
+					<input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+				  </div>
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<label for="message" class="col-4 col-form-label">Message</label>
+				<div class="col-8">
+				  <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<div class="offset-4 col-8">
+				  <button name="submit" type="submit" class="btn btn-primary">Send</button>
+				</div>
+			  </div>
+			</form>
+			<div align="center">
+			  <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
+			</div>
 </section>
 
 <div class="content">
