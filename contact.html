@@ -33,7 +33,7 @@ image2: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<label for="message">Message</label>
 			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-			<input type="submit" value="Send Message" />
+			<input type="submit" value="Send Message" onclick="submitHandler();"/>
 		</form>
 	</div>
 </section>
@@ -58,3 +58,29 @@ image2: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 		</div>
 	</section>
 </div>
+
+
+<script>
+	//宣告預設表單內容為空 （你想要的話也可以加東西）
+		var initSubject='',initBody='';
+	 
+		//按下傳送按鈕後執行
+		function submitHandler(){
+			var to = "pznsstudio@gmail.com";//寫死的傳送對象 就是公司的信箱 不會顯示在網頁上
+			var name = name.value;//讀取ID為 nameTextuser 物件中的值
+			var email = email.value;
+	//把user填的資料都塞到 mail body 中
+			var body = ""+message.value+'%0A%0A%0A';//%0A是換行 換了三行
+				body += "From："+name.value+'%0A';
+				body += "Email："+email.value+'%0A';
+	//傳送的主要程式碼
+			mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+			mailTo.click();
+		}
+	//在body onload
+		function init(){
+			subText.value=initSubject;
+			toText.value=initTo;
+			bodyText.value=initBody;
+		}
+</script>
