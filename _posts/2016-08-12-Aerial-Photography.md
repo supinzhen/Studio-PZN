@@ -1,5 +1,6 @@
 ---
 title: 空拍攝影 Aerial Photography
+date: 2016-08-12
 description: See the world in bird's eyeview.
 categories:
   - 空拍攝影
