@@ -7,21 +7,18 @@ left_links:
     link: /contact/
 right_links:
   - name:
-    link: https://facebook.com/cloudcannon
+    link: https://www.facebook.com/anninesu/
     new_window: true
     social_icon: Facebook
   - name:
-    link: https://twitter.com/cloudcannon
+    link: https://twitter.com/supinzhen
     social_icon: Twitter
     new_window: true
   - name:
-    link: https://youtube.com/c/cloudcannon
+    link: https://www.youtube.com/@studiopzn/featured
     social_icon: YouTube
     new_window: true
   - name:
-    link: https://instagram.com/
+    link: https://www.instagram.com/pinchenshots/
     social_icon: Instagram
     new_window: true
-  - name:
-    link: /feed.xml
-    social_icon: RSS
