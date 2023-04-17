@@ -22,3 +22,7 @@ right_links:
     link: https://www.instagram.com/pinchenshots/
     social_icon: Instagram
     new_window: true
+  - name:
+    link: mailto:pznsstudio@gmail.com
+    social_icon: Email
+    new_window: true
