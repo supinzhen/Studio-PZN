@@ -5,7 +5,7 @@ description: See the world in bird's eyeview.
 categories:
   - 空拍攝影
   - Aerial Photography
-image: ../Studio-PZN/uploads/IMG_688801.jpg
+image: /Studio-PZN/uploads/IMG_688801.jpg
 ---
 Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
 
